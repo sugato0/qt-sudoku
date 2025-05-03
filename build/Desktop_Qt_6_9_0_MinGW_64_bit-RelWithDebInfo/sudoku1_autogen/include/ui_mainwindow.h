@@ -1,0 +1,582 @@
+/********************************************************************************
+** Form generated from reading UI file 'mainwindow.ui'
+**
+** Created by: Qt User Interface Compiler version 6.9.0
+**
+** WARNING! All changes made in this file will be lost when recompiling UI file!
+********************************************************************************/
+
+#ifndef UI_MAINWINDOW_H
+#define UI_MAINWINDOW_H
+
+#include <QtCore/QVariant>
+#include <QtGui/QAction>
+#include <QtWidgets/QApplication>
+#include <QtWidgets/QHeaderView>
+#include <QtWidgets/QLabel>
+#include <QtWidgets/QMenu>
+#include <QtWidgets/QMenuBar>
+#include <QtWidgets/QPushButton>
+#include <QtWidgets/QStatusBar>
+#include <QtWidgets/QTableWidget>
+#include <QtWidgets/QToolBar>
+#include <QtWidgets/QWidget>
+
+QT_BEGIN_NAMESPACE
+
+class Ui_Form
+{
+public:
+    QAction *actionExit;
+    QAction *actionNew_game;
+    QWidget *centralWidget;
+    QPushButton *solve;
+    QTableWidget *table;
+    QPushButton *pb00_2;
+    QPushButton *pb00_3;
+    QPushButton *pb00_4;
+    QPushButton *pb00_5;
+    QPushButton *pb00_6;
+    QPushButton *pb00_7;
+    QPushButton *pb00_8;
+    QPushButton *pb00_9;
+    QPushButton *pb00_1;
+    QLabel *label;
+    QPushButton *pushButton;
+    QToolBar *mainToolBar;
+    QStatusBar *statusBar;
+    QMenuBar *menuBar;
+    QMenu *menuMenu;
+
+    void setupUi(QWidget *Form)
+    {
+        if (Form->objectName().isEmpty())
+            Form->setObjectName("Form");
+        Form->resize(631, 326);
+        actionExit = new QAction(Form);
+        actionExit->setObjectName("actionExit");
+        actionNew_game = new QAction(Form);
+        actionNew_game->setObjectName("actionNew_game");
+        centralWidget = new QWidget(Form);
+        centralWidget->setObjectName("centralWidget");
+        centralWidget->setGeometry(QRect(40, 40, 551, 270));
+        solve = new QPushButton(centralWidget);
+        solve->setObjectName("solve");
+        solve->setGeometry(QRect(380, 160, 99, 27));
+        table = new QTableWidget(centralWidget);
+        if (table->columnCount() < 9)
+            table->setColumnCount(9);
+        QTableWidgetItem *__qtablewidgetitem = new QTableWidgetItem();
+        table->setHorizontalHeaderItem(0, __qtablewidgetitem);
+        QTableWidgetItem *__qtablewidgetitem1 = new QTableWidgetItem();
+        table->setHorizontalHeaderItem(1, __qtablewidgetitem1);
+        QTableWidgetItem *__qtablewidgetitem2 = new QTableWidgetItem();
+        table->setHorizontalHeaderItem(2, __qtablewidgetitem2);
+        QTableWidgetItem *__qtablewidgetitem3 = new QTableWidgetItem();
+        table->setHorizontalHeaderItem(3, __qtablewidgetitem3);
+        QTableWidgetItem *__qtablewidgetitem4 = new QTableWidgetItem();
+        table->setHorizontalHeaderItem(4, __qtablewidgetitem4);
+        QTableWidgetItem *__qtablewidgetitem5 = new QTableWidgetItem();
+        table->setHorizontalHeaderItem(5, __qtablewidgetitem5);
+        QTableWidgetItem *__qtablewidgetitem6 = new QTableWidgetItem();
+        table->setHorizontalHeaderItem(6, __qtablewidgetitem6);
+        QTableWidgetItem *__qtablewidgetitem7 = new QTableWidgetItem();
+        table->setHorizontalHeaderItem(7, __qtablewidgetitem7);
+        QTableWidgetItem *__qtablewidgetitem8 = new QTableWidgetItem();
+        table->setHorizontalHeaderItem(8, __qtablewidgetitem8);
+        if (table->rowCount() < 9)
+            table->setRowCount(9);
+        QTableWidgetItem *__qtablewidgetitem9 = new QTableWidgetItem();
+        table->setVerticalHeaderItem(0, __qtablewidgetitem9);
+        QTableWidgetItem *__qtablewidgetitem10 = new QTableWidgetItem();
+        table->setVerticalHeaderItem(1, __qtablewidgetitem10);
+        QTableWidgetItem *__qtablewidgetitem11 = new QTableWidgetItem();
+        table->setVerticalHeaderItem(2, __qtablewidgetitem11);
+        QTableWidgetItem *__qtablewidgetitem12 = new QTableWidgetItem();
+        table->setVerticalHeaderItem(3, __qtablewidgetitem12);
+        QTableWidgetItem *__qtablewidgetitem13 = new QTableWidgetItem();
+        table->setVerticalHeaderItem(4, __qtablewidgetitem13);
+        QTableWidgetItem *__qtablewidgetitem14 = new QTableWidgetItem();
+        table->setVerticalHeaderItem(5, __qtablewidgetitem14);
+        QTableWidgetItem *__qtablewidgetitem15 = new QTableWidgetItem();
+        table->setVerticalHeaderItem(6, __qtablewidgetitem15);
+        QTableWidgetItem *__qtablewidgetitem16 = new QTableWidgetItem();
+        table->setVerticalHeaderItem(7, __qtablewidgetitem16);
+        QTableWidgetItem *__qtablewidgetitem17 = new QTableWidgetItem();
+        table->setVerticalHeaderItem(8, __qtablewidgetitem17);
+        QTableWidgetItem *__qtablewidgetitem18 = new QTableWidgetItem();
+        table->setItem(0, 0, __qtablewidgetitem18);
+        QTableWidgetItem *__qtablewidgetitem19 = new QTableWidgetItem();
+        table->setItem(0, 1, __qtablewidgetitem19);
+        QTableWidgetItem *__qtablewidgetitem20 = new QTableWidgetItem();
+        table->setItem(0, 2, __qtablewidgetitem20);
+        QTableWidgetItem *__qtablewidgetitem21 = new QTableWidgetItem();
+        table->setItem(0, 3, __qtablewidgetitem21);
+        QTableWidgetItem *__qtablewidgetitem22 = new QTableWidgetItem();
+        table->setItem(0, 4, __qtablewidgetitem22);
+        QTableWidgetItem *__qtablewidgetitem23 = new QTableWidgetItem();
+        table->setItem(0, 5, __qtablewidgetitem23);
+        QTableWidgetItem *__qtablewidgetitem24 = new QTableWidgetItem();
+        table->setItem(0, 6, __qtablewidgetitem24);
+        QTableWidgetItem *__qtablewidgetitem25 = new QTableWidgetItem();
+        table->setItem(0, 7, __qtablewidgetitem25);
+        QTableWidgetItem *__qtablewidgetitem26 = new QTableWidgetItem();
+        table->setItem(0, 8, __qtablewidgetitem26);
+        QTableWidgetItem *__qtablewidgetitem27 = new QTableWidgetItem();
+        table->setItem(1, 0, __qtablewidgetitem27);
+        QTableWidgetItem *__qtablewidgetitem28 = new QTableWidgetItem();
+        table->setItem(1, 1, __qtablewidgetitem28);
+        QTableWidgetItem *__qtablewidgetitem29 = new QTableWidgetItem();
+        table->setItem(1, 2, __qtablewidgetitem29);
+        QTableWidgetItem *__qtablewidgetitem30 = new QTableWidgetItem();
+        table->setItem(1, 3, __qtablewidgetitem30);
+        QTableWidgetItem *__qtablewidgetitem31 = new QTableWidgetItem();
+        table->setItem(1, 4, __qtablewidgetitem31);
+        QTableWidgetItem *__qtablewidgetitem32 = new QTableWidgetItem();
+        table->setItem(1, 5, __qtablewidgetitem32);
+        QTableWidgetItem *__qtablewidgetitem33 = new QTableWidgetItem();
+        table->setItem(1, 6, __qtablewidgetitem33);
+        QTableWidgetItem *__qtablewidgetitem34 = new QTableWidgetItem();
+        table->setItem(1, 7, __qtablewidgetitem34);
+        QTableWidgetItem *__qtablewidgetitem35 = new QTableWidgetItem();
+        table->setItem(1, 8, __qtablewidgetitem35);
+        QTableWidgetItem *__qtablewidgetitem36 = new QTableWidgetItem();
+        table->setItem(2, 0, __qtablewidgetitem36);
+        QTableWidgetItem *__qtablewidgetitem37 = new QTableWidgetItem();
+        table->setItem(2, 1, __qtablewidgetitem37);
+        QTableWidgetItem *__qtablewidgetitem38 = new QTableWidgetItem();
+        table->setItem(2, 2, __qtablewidgetitem38);
+        QTableWidgetItem *__qtablewidgetitem39 = new QTableWidgetItem();
+        table->setItem(2, 3, __qtablewidgetitem39);
+        QTableWidgetItem *__qtablewidgetitem40 = new QTableWidgetItem();
+        table->setItem(2, 4, __qtablewidgetitem40);
+        QTableWidgetItem *__qtablewidgetitem41 = new QTableWidgetItem();
+        table->setItem(2, 5, __qtablewidgetitem41);
+        QTableWidgetItem *__qtablewidgetitem42 = new QTableWidgetItem();
+        table->setItem(2, 6, __qtablewidgetitem42);
+        QTableWidgetItem *__qtablewidgetitem43 = new QTableWidgetItem();
+        table->setItem(2, 7, __qtablewidgetitem43);
+        QTableWidgetItem *__qtablewidgetitem44 = new QTableWidgetItem();
+        table->setItem(2, 8, __qtablewidgetitem44);
+        QTableWidgetItem *__qtablewidgetitem45 = new QTableWidgetItem();
+        table->setItem(3, 0, __qtablewidgetitem45);
+        QTableWidgetItem *__qtablewidgetitem46 = new QTableWidgetItem();
+        table->setItem(3, 1, __qtablewidgetitem46);
+        QTableWidgetItem *__qtablewidgetitem47 = new QTableWidgetItem();
+        table->setItem(3, 2, __qtablewidgetitem47);
+        QTableWidgetItem *__qtablewidgetitem48 = new QTableWidgetItem();
+        table->setItem(3, 3, __qtablewidgetitem48);
+        QTableWidgetItem *__qtablewidgetitem49 = new QTableWidgetItem();
+        table->setItem(3, 4, __qtablewidgetitem49);
+        QTableWidgetItem *__qtablewidgetitem50 = new QTableWidgetItem();
+        table->setItem(3, 5, __qtablewidgetitem50);
+        QTableWidgetItem *__qtablewidgetitem51 = new QTableWidgetItem();
+        table->setItem(3, 6, __qtablewidgetitem51);
+        QTableWidgetItem *__qtablewidgetitem52 = new QTableWidgetItem();
+        table->setItem(3, 7, __qtablewidgetitem52);
+        QTableWidgetItem *__qtablewidgetitem53 = new QTableWidgetItem();
+        table->setItem(3, 8, __qtablewidgetitem53);
+        QTableWidgetItem *__qtablewidgetitem54 = new QTableWidgetItem();
+        table->setItem(4, 0, __qtablewidgetitem54);
+        QTableWidgetItem *__qtablewidgetitem55 = new QTableWidgetItem();
+        table->setItem(4, 1, __qtablewidgetitem55);
+        QTableWidgetItem *__qtablewidgetitem56 = new QTableWidgetItem();
+        table->setItem(4, 2, __qtablewidgetitem56);
+        QTableWidgetItem *__qtablewidgetitem57 = new QTableWidgetItem();
+        table->setItem(4, 3, __qtablewidgetitem57);
+        QTableWidgetItem *__qtablewidgetitem58 = new QTableWidgetItem();
+        table->setItem(4, 4, __qtablewidgetitem58);
+        QTableWidgetItem *__qtablewidgetitem59 = new QTableWidgetItem();
+        table->setItem(4, 5, __qtablewidgetitem59);
+        QTableWidgetItem *__qtablewidgetitem60 = new QTableWidgetItem();
+        table->setItem(4, 6, __qtablewidgetitem60);
+        QTableWidgetItem *__qtablewidgetitem61 = new QTableWidgetItem();
+        table->setItem(4, 7, __qtablewidgetitem61);
+        QTableWidgetItem *__qtablewidgetitem62 = new QTableWidgetItem();
+        table->setItem(4, 8, __qtablewidgetitem62);
+        QTableWidgetItem *__qtablewidgetitem63 = new QTableWidgetItem();
+        table->setItem(5, 0, __qtablewidgetitem63);
+        QTableWidgetItem *__qtablewidgetitem64 = new QTableWidgetItem();
+        table->setItem(5, 1, __qtablewidgetitem64);
+        QTableWidgetItem *__qtablewidgetitem65 = new QTableWidgetItem();
+        table->setItem(5, 2, __qtablewidgetitem65);
+        QTableWidgetItem *__qtablewidgetitem66 = new QTableWidgetItem();
+        table->setItem(5, 3, __qtablewidgetitem66);
+        QTableWidgetItem *__qtablewidgetitem67 = new QTableWidgetItem();
+        table->setItem(5, 4, __qtablewidgetitem67);
+        QTableWidgetItem *__qtablewidgetitem68 = new QTableWidgetItem();
+        table->setItem(5, 5, __qtablewidgetitem68);
+        QTableWidgetItem *__qtablewidgetitem69 = new QTableWidgetItem();
+        table->setItem(5, 6, __qtablewidgetitem69);
+        QTableWidgetItem *__qtablewidgetitem70 = new QTableWidgetItem();
+        table->setItem(5, 7, __qtablewidgetitem70);
+        QTableWidgetItem *__qtablewidgetitem71 = new QTableWidgetItem();
+        table->setItem(5, 8, __qtablewidgetitem71);
+        QTableWidgetItem *__qtablewidgetitem72 = new QTableWidgetItem();
+        table->setItem(6, 0, __qtablewidgetitem72);
+        QTableWidgetItem *__qtablewidgetitem73 = new QTableWidgetItem();
+        table->setItem(6, 1, __qtablewidgetitem73);
+        QTableWidgetItem *__qtablewidgetitem74 = new QTableWidgetItem();
+        table->setItem(6, 2, __qtablewidgetitem74);
+        QTableWidgetItem *__qtablewidgetitem75 = new QTableWidgetItem();
+        table->setItem(6, 3, __qtablewidgetitem75);
+        QTableWidgetItem *__qtablewidgetitem76 = new QTableWidgetItem();
+        table->setItem(6, 4, __qtablewidgetitem76);
+        QTableWidgetItem *__qtablewidgetitem77 = new QTableWidgetItem();
+        table->setItem(6, 5, __qtablewidgetitem77);
+        QTableWidgetItem *__qtablewidgetitem78 = new QTableWidgetItem();
+        table->setItem(6, 6, __qtablewidgetitem78);
+        QTableWidgetItem *__qtablewidgetitem79 = new QTableWidgetItem();
+        table->setItem(6, 7, __qtablewidgetitem79);
+        QTableWidgetItem *__qtablewidgetitem80 = new QTableWidgetItem();
+        table->setItem(6, 8, __qtablewidgetitem80);
+        QTableWidgetItem *__qtablewidgetitem81 = new QTableWidgetItem();
+        table->setItem(7, 0, __qtablewidgetitem81);
+        QTableWidgetItem *__qtablewidgetitem82 = new QTableWidgetItem();
+        table->setItem(7, 1, __qtablewidgetitem82);
+        QTableWidgetItem *__qtablewidgetitem83 = new QTableWidgetItem();
+        table->setItem(7, 2, __qtablewidgetitem83);
+        QTableWidgetItem *__qtablewidgetitem84 = new QTableWidgetItem();
+        table->setItem(7, 3, __qtablewidgetitem84);
+        QTableWidgetItem *__qtablewidgetitem85 = new QTableWidgetItem();
+        table->setItem(7, 4, __qtablewidgetitem85);
+        QTableWidgetItem *__qtablewidgetitem86 = new QTableWidgetItem();
+        table->setItem(7, 5, __qtablewidgetitem86);
+        QTableWidgetItem *__qtablewidgetitem87 = new QTableWidgetItem();
+        table->setItem(7, 6, __qtablewidgetitem87);
+        QTableWidgetItem *__qtablewidgetitem88 = new QTableWidgetItem();
+        table->setItem(7, 7, __qtablewidgetitem88);
+        QTableWidgetItem *__qtablewidgetitem89 = new QTableWidgetItem();
+        table->setItem(7, 8, __qtablewidgetitem89);
+        QTableWidgetItem *__qtablewidgetitem90 = new QTableWidgetItem();
+        table->setItem(8, 0, __qtablewidgetitem90);
+        QTableWidgetItem *__qtablewidgetitem91 = new QTableWidgetItem();
+        table->setItem(8, 1, __qtablewidgetitem91);
+        QTableWidgetItem *__qtablewidgetitem92 = new QTableWidgetItem();
+        table->setItem(8, 2, __qtablewidgetitem92);
+        QTableWidgetItem *__qtablewidgetitem93 = new QTableWidgetItem();
+        table->setItem(8, 3, __qtablewidgetitem93);
+        QTableWidgetItem *__qtablewidgetitem94 = new QTableWidgetItem();
+        table->setItem(8, 4, __qtablewidgetitem94);
+        QTableWidgetItem *__qtablewidgetitem95 = new QTableWidgetItem();
+        table->setItem(8, 5, __qtablewidgetitem95);
+        QTableWidgetItem *__qtablewidgetitem96 = new QTableWidgetItem();
+        table->setItem(8, 6, __qtablewidgetitem96);
+        QTableWidgetItem *__qtablewidgetitem97 = new QTableWidgetItem();
+        table->setItem(8, 7, __qtablewidgetitem97);
+        QTableWidgetItem *__qtablewidgetitem98 = new QTableWidgetItem();
+        table->setItem(8, 8, __qtablewidgetitem98);
+        table->setObjectName("table");
+        table->setGeometry(QRect(10, 0, 360, 270));
+        table->setMinimumSize(QSize(360, 270));
+        table->setVerticalScrollBarPolicy(Qt::ScrollBarPolicy::ScrollBarAlwaysOff);
+        table->setHorizontalScrollBarPolicy(Qt::ScrollBarPolicy::ScrollBarAlwaysOff);
+        table->setEditTriggers(QAbstractItemView::EditTrigger::NoEditTriggers);
+        table->horizontalHeader()->setVisible(false);
+        table->horizontalHeader()->setMinimumSectionSize(40);
+        table->horizontalHeader()->setDefaultSectionSize(40);
+        table->horizontalHeader()->setHighlightSections(true);
+        table->verticalHeader()->setVisible(false);
+        pb00_2 = new QPushButton(centralWidget);
+        pb00_2->setObjectName("pb00_2");
+        pb00_2->setGeometry(QRect(440, 10, 41, 31));
+        pb00_3 = new QPushButton(centralWidget);
+        pb00_3->setObjectName("pb00_3");
+        pb00_3->setGeometry(QRect(500, 10, 41, 31));
+        pb00_4 = new QPushButton(centralWidget);
+        pb00_4->setObjectName("pb00_4");
+        pb00_4->setGeometry(QRect(380, 60, 41, 31));
+        pb00_5 = new QPushButton(centralWidget);
+        pb00_5->setObjectName("pb00_5");
+        pb00_5->setGeometry(QRect(440, 60, 41, 31));
+        pb00_6 = new QPushButton(centralWidget);
+        pb00_6->setObjectName("pb00_6");
+        pb00_6->setGeometry(QRect(500, 60, 41, 31));
+        pb00_7 = new QPushButton(centralWidget);
+        pb00_7->setObjectName("pb00_7");
+        pb00_7->setGeometry(QRect(380, 110, 41, 31));
+        pb00_8 = new QPushButton(centralWidget);
+        pb00_8->setObjectName("pb00_8");
+        pb00_8->setGeometry(QRect(440, 110, 41, 31));
+        pb00_9 = new QPushButton(centralWidget);
+        pb00_9->setObjectName("pb00_9");
+        pb00_9->setGeometry(QRect(500, 110, 41, 31));
+        pb00_1 = new QPushButton(centralWidget);
+        pb00_1->setObjectName("pb00_1");
+        pb00_1->setGeometry(QRect(380, 10, 41, 31));
+        label = new QLabel(centralWidget);
+        label->setObjectName("label");
+        label->setGeometry(QRect(390, 250, 67, 17));
+        pushButton = new QPushButton(centralWidget);
+        pushButton->setObjectName("pushButton");
+        pushButton->setGeometry(QRect(380, 200, 99, 27));
+        table->raise();
+        solve->raise();
+        pb00_2->raise();
+        pb00_3->raise();
+        pb00_4->raise();
+        pb00_5->raise();
+        pb00_6->raise();
+        pb00_7->raise();
+        pb00_8->raise();
+        pb00_9->raise();
+        pb00_1->raise();
+        label->raise();
+        pushButton->raise();
+        mainToolBar = new QToolBar(Form);
+        mainToolBar->setObjectName("mainToolBar");
+        mainToolBar->setGeometry(QRect(0, 10, 4, 14));
+        statusBar = new QStatusBar(Form);
+        statusBar->setObjectName("statusBar");
+        statusBar->setGeometry(QRect(0, 10, 3, 25));
+        menuBar = new QMenuBar(Form);
+        menuBar->setObjectName("menuBar");
+        menuBar->setGeometry(QRect(50, 10, 561, 26));
+        menuMenu = new QMenu(menuBar);
+        menuMenu->setObjectName("menuMenu");
+
+        menuBar->addAction(menuMenu->menuAction());
+
+        retranslateUi(Form);
+
+        QMetaObject::connectSlotsByName(Form);
+    } // setupUi
+
+    void retranslateUi(QWidget *Form)
+    {
+        Form->setWindowTitle(QCoreApplication::translate("Form", "Form", nullptr));
+        actionExit->setText(QCoreApplication::translate("Form", "exit", nullptr));
+#if QT_CONFIG(shortcut)
+        actionExit->setShortcut(QCoreApplication::translate("Form", "Alt+Q", nullptr));
+#endif // QT_CONFIG(shortcut)
+        actionNew_game->setText(QCoreApplication::translate("Form", "new game", nullptr));
+#if QT_CONFIG(shortcut)
+        actionNew_game->setShortcut(QCoreApplication::translate("Form", "Alt+N", nullptr));
+#endif // QT_CONFIG(shortcut)
+        solve->setText(QCoreApplication::translate("Form", "solve it !", nullptr));
+        QTableWidgetItem *___qtablewidgetitem = table->horizontalHeaderItem(0);
+        ___qtablewidgetitem->setText(QCoreApplication::translate("Form", "\346\226\260\345\273\272\345\210\227", nullptr));
+        QTableWidgetItem *___qtablewidgetitem1 = table->horizontalHeaderItem(1);
+        ___qtablewidgetitem1->setText(QCoreApplication::translate("Form", "\346\226\260\345\273\272\345\210\227", nullptr));
+        QTableWidgetItem *___qtablewidgetitem2 = table->horizontalHeaderItem(2);
+        ___qtablewidgetitem2->setText(QCoreApplication::translate("Form", "\346\226\260\345\273\272\345\210\227", nullptr));
+        QTableWidgetItem *___qtablewidgetitem3 = table->horizontalHeaderItem(3);
+        ___qtablewidgetitem3->setText(QCoreApplication::translate("Form", "\346\226\260\345\273\272\345\210\227", nullptr));
+        QTableWidgetItem *___qtablewidgetitem4 = table->horizontalHeaderItem(4);
+        ___qtablewidgetitem4->setText(QCoreApplication::translate("Form", "\346\226\260\345\273\272\345\210\227", nullptr));
+        QTableWidgetItem *___qtablewidgetitem5 = table->horizontalHeaderItem(5);
+        ___qtablewidgetitem5->setText(QCoreApplication::translate("Form", "\346\226\260\345\273\272\345\210\227", nullptr));
+        QTableWidgetItem *___qtablewidgetitem6 = table->horizontalHeaderItem(6);
+        ___qtablewidgetitem6->setText(QCoreApplication::translate("Form", "\346\226\260\345\273\272\345\210\227", nullptr));
+        QTableWidgetItem *___qtablewidgetitem7 = table->horizontalHeaderItem(7);
+        ___qtablewidgetitem7->setText(QCoreApplication::translate("Form", "\346\226\260\345\273\272\345\210\227", nullptr));
+        QTableWidgetItem *___qtablewidgetitem8 = table->horizontalHeaderItem(8);
+        ___qtablewidgetitem8->setText(QCoreApplication::translate("Form", "\346\226\260\345\273\272\345\210\227", nullptr));
+        QTableWidgetItem *___qtablewidgetitem9 = table->verticalHeaderItem(0);
+        ___qtablewidgetitem9->setText(QCoreApplication::translate("Form", "\346\226\260\345\273\272\350\241\214", nullptr));
+        QTableWidgetItem *___qtablewidgetitem10 = table->verticalHeaderItem(1);
+        ___qtablewidgetitem10->setText(QCoreApplication::translate("Form", "\346\226\260\345\273\272\350\241\214", nullptr));
+        QTableWidgetItem *___qtablewidgetitem11 = table->verticalHeaderItem(2);
+        ___qtablewidgetitem11->setText(QCoreApplication::translate("Form", "\346\226\260\345\273\272\350\241\214", nullptr));
+        QTableWidgetItem *___qtablewidgetitem12 = table->verticalHeaderItem(3);
+        ___qtablewidgetitem12->setText(QCoreApplication::translate("Form", "\346\226\260\345\273\272\350\241\214", nullptr));
+        QTableWidgetItem *___qtablewidgetitem13 = table->verticalHeaderItem(4);
+        ___qtablewidgetitem13->setText(QCoreApplication::translate("Form", "\346\226\260\345\273\272\350\241\214", nullptr));
+        QTableWidgetItem *___qtablewidgetitem14 = table->verticalHeaderItem(5);
+        ___qtablewidgetitem14->setText(QCoreApplication::translate("Form", "\346\226\260\345\273\272\350\241\214", nullptr));
+        QTableWidgetItem *___qtablewidgetitem15 = table->verticalHeaderItem(6);
+        ___qtablewidgetitem15->setText(QCoreApplication::translate("Form", "\346\226\260\345\273\272\350\241\214", nullptr));
+        QTableWidgetItem *___qtablewidgetitem16 = table->verticalHeaderItem(7);
+        ___qtablewidgetitem16->setText(QCoreApplication::translate("Form", "\346\226\260\345\273\272\350\241\214", nullptr));
+        QTableWidgetItem *___qtablewidgetitem17 = table->verticalHeaderItem(8);
+        ___qtablewidgetitem17->setText(QCoreApplication::translate("Form", "\346\226\260\345\273\272\350\241\214", nullptr));
+
+        const bool __sortingEnabled = table->isSortingEnabled();
+        table->setSortingEnabled(false);
+        QTableWidgetItem *___qtablewidgetitem18 = table->item(0, 0);
+        ___qtablewidgetitem18->setText(QCoreApplication::translate("Form", "0", nullptr));
+        QTableWidgetItem *___qtablewidgetitem19 = table->item(0, 1);
+        ___qtablewidgetitem19->setText(QCoreApplication::translate("Form", "0", nullptr));
+        QTableWidgetItem *___qtablewidgetitem20 = table->item(0, 2);
+        ___qtablewidgetitem20->setText(QCoreApplication::translate("Form", "0", nullptr));
+        QTableWidgetItem *___qtablewidgetitem21 = table->item(0, 3);
+        ___qtablewidgetitem21->setText(QCoreApplication::translate("Form", "0", nullptr));
+        QTableWidgetItem *___qtablewidgetitem22 = table->item(0, 4);
+        ___qtablewidgetitem22->setText(QCoreApplication::translate("Form", "0", nullptr));
+        QTableWidgetItem *___qtablewidgetitem23 = table->item(0, 5);
+        ___qtablewidgetitem23->setText(QCoreApplication::translate("Form", "0", nullptr));
+        QTableWidgetItem *___qtablewidgetitem24 = table->item(0, 6);
+        ___qtablewidgetitem24->setText(QCoreApplication::translate("Form", "0", nullptr));
+        QTableWidgetItem *___qtablewidgetitem25 = table->item(0, 7);
+        ___qtablewidgetitem25->setText(QCoreApplication::translate("Form", "0", nullptr));
+        QTableWidgetItem *___qtablewidgetitem26 = table->item(0, 8);
+        ___qtablewidgetitem26->setText(QCoreApplication::translate("Form", "0", nullptr));
+        QTableWidgetItem *___qtablewidgetitem27 = table->item(1, 0);
+        ___qtablewidgetitem27->setText(QCoreApplication::translate("Form", "0", nullptr));
+        QTableWidgetItem *___qtablewidgetitem28 = table->item(1, 1);
+        ___qtablewidgetitem28->setText(QCoreApplication::translate("Form", "0", nullptr));
+        QTableWidgetItem *___qtablewidgetitem29 = table->item(1, 2);
+        ___qtablewidgetitem29->setText(QCoreApplication::translate("Form", "0", nullptr));
+        QTableWidgetItem *___qtablewidgetitem30 = table->item(1, 3);
+        ___qtablewidgetitem30->setText(QCoreApplication::translate("Form", "0", nullptr));
+        QTableWidgetItem *___qtablewidgetitem31 = table->item(1, 4);
+        ___qtablewidgetitem31->setText(QCoreApplication::translate("Form", "0", nullptr));
+        QTableWidgetItem *___qtablewidgetitem32 = table->item(1, 5);
+        ___qtablewidgetitem32->setText(QCoreApplication::translate("Form", "0", nullptr));
+        QTableWidgetItem *___qtablewidgetitem33 = table->item(1, 6);
+        ___qtablewidgetitem33->setText(QCoreApplication::translate("Form", "0", nullptr));
+        QTableWidgetItem *___qtablewidgetitem34 = table->item(1, 7);
+        ___qtablewidgetitem34->setText(QCoreApplication::translate("Form", "0", nullptr));
+        QTableWidgetItem *___qtablewidgetitem35 = table->item(1, 8);
+        ___qtablewidgetitem35->setText(QCoreApplication::translate("Form", "0", nullptr));
+        QTableWidgetItem *___qtablewidgetitem36 = table->item(2, 0);
+        ___qtablewidgetitem36->setText(QCoreApplication::translate("Form", "0", nullptr));
+        QTableWidgetItem *___qtablewidgetitem37 = table->item(2, 1);
+        ___qtablewidgetitem37->setText(QCoreApplication::translate("Form", "0", nullptr));
+        QTableWidgetItem *___qtablewidgetitem38 = table->item(2, 2);
+        ___qtablewidgetitem38->setText(QCoreApplication::translate("Form", "0", nullptr));
+        QTableWidgetItem *___qtablewidgetitem39 = table->item(2, 3);
+        ___qtablewidgetitem39->setText(QCoreApplication::translate("Form", "0", nullptr));
+        QTableWidgetItem *___qtablewidgetitem40 = table->item(2, 4);
+        ___qtablewidgetitem40->setText(QCoreApplication::translate("Form", "0", nullptr));
+        QTableWidgetItem *___qtablewidgetitem41 = table->item(2, 5);
+        ___qtablewidgetitem41->setText(QCoreApplication::translate("Form", "0", nullptr));
+        QTableWidgetItem *___qtablewidgetitem42 = table->item(2, 6);
+        ___qtablewidgetitem42->setText(QCoreApplication::translate("Form", "0", nullptr));
+        QTableWidgetItem *___qtablewidgetitem43 = table->item(2, 7);
+        ___qtablewidgetitem43->setText(QCoreApplication::translate("Form", "0", nullptr));
+        QTableWidgetItem *___qtablewidgetitem44 = table->item(2, 8);
+        ___qtablewidgetitem44->setText(QCoreApplication::translate("Form", "0", nullptr));
+        QTableWidgetItem *___qtablewidgetitem45 = table->item(3, 0);
+        ___qtablewidgetitem45->setText(QCoreApplication::translate("Form", "0", nullptr));
+        QTableWidgetItem *___qtablewidgetitem46 = table->item(3, 1);
+        ___qtablewidgetitem46->setText(QCoreApplication::translate("Form", "0", nullptr));
+        QTableWidgetItem *___qtablewidgetitem47 = table->item(3, 2);
+        ___qtablewidgetitem47->setText(QCoreApplication::translate("Form", "0", nullptr));
+        QTableWidgetItem *___qtablewidgetitem48 = table->item(3, 3);
+        ___qtablewidgetitem48->setText(QCoreApplication::translate("Form", "0", nullptr));
+        QTableWidgetItem *___qtablewidgetitem49 = table->item(3, 4);
+        ___qtablewidgetitem49->setText(QCoreApplication::translate("Form", "0", nullptr));
+        QTableWidgetItem *___qtablewidgetitem50 = table->item(3, 5);
+        ___qtablewidgetitem50->setText(QCoreApplication::translate("Form", "0", nullptr));
+        QTableWidgetItem *___qtablewidgetitem51 = table->item(3, 6);
+        ___qtablewidgetitem51->setText(QCoreApplication::translate("Form", "0", nullptr));
+        QTableWidgetItem *___qtablewidgetitem52 = table->item(3, 7);
+        ___qtablewidgetitem52->setText(QCoreApplication::translate("Form", "0", nullptr));
+        QTableWidgetItem *___qtablewidgetitem53 = table->item(3, 8);
+        ___qtablewidgetitem53->setText(QCoreApplication::translate("Form", "0", nullptr));
+        QTableWidgetItem *___qtablewidgetitem54 = table->item(4, 0);
+        ___qtablewidgetitem54->setText(QCoreApplication::translate("Form", "0", nullptr));
+        QTableWidgetItem *___qtablewidgetitem55 = table->item(4, 1);
+        ___qtablewidgetitem55->setText(QCoreApplication::translate("Form", "0", nullptr));
+        QTableWidgetItem *___qtablewidgetitem56 = table->item(4, 2);
+        ___qtablewidgetitem56->setText(QCoreApplication::translate("Form", "0", nullptr));
+        QTableWidgetItem *___qtablewidgetitem57 = table->item(4, 3);
+        ___qtablewidgetitem57->setText(QCoreApplication::translate("Form", "0", nullptr));
+        QTableWidgetItem *___qtablewidgetitem58 = table->item(4, 4);
+        ___qtablewidgetitem58->setText(QCoreApplication::translate("Form", "0", nullptr));
+        QTableWidgetItem *___qtablewidgetitem59 = table->item(4, 5);
+        ___qtablewidgetitem59->setText(QCoreApplication::translate("Form", "0", nullptr));
+        QTableWidgetItem *___qtablewidgetitem60 = table->item(4, 6);
+        ___qtablewidgetitem60->setText(QCoreApplication::translate("Form", "0", nullptr));
+        QTableWidgetItem *___qtablewidgetitem61 = table->item(4, 7);
+        ___qtablewidgetitem61->setText(QCoreApplication::translate("Form", "0", nullptr));
+        QTableWidgetItem *___qtablewidgetitem62 = table->item(4, 8);
+        ___qtablewidgetitem62->setText(QCoreApplication::translate("Form", "0", nullptr));
+        QTableWidgetItem *___qtablewidgetitem63 = table->item(5, 0);
+        ___qtablewidgetitem63->setText(QCoreApplication::translate("Form", "0", nullptr));
+        QTableWidgetItem *___qtablewidgetitem64 = table->item(5, 1);
+        ___qtablewidgetitem64->setText(QCoreApplication::translate("Form", "0", nullptr));
+        QTableWidgetItem *___qtablewidgetitem65 = table->item(5, 2);
+        ___qtablewidgetitem65->setText(QCoreApplication::translate("Form", "0", nullptr));
+        QTableWidgetItem *___qtablewidgetitem66 = table->item(5, 3);
+        ___qtablewidgetitem66->setText(QCoreApplication::translate("Form", "0", nullptr));
+        QTableWidgetItem *___qtablewidgetitem67 = table->item(5, 4);
+        ___qtablewidgetitem67->setText(QCoreApplication::translate("Form", "0", nullptr));
+        QTableWidgetItem *___qtablewidgetitem68 = table->item(5, 5);
+        ___qtablewidgetitem68->setText(QCoreApplication::translate("Form", "0", nullptr));
+        QTableWidgetItem *___qtablewidgetitem69 = table->item(5, 6);
+        ___qtablewidgetitem69->setText(QCoreApplication::translate("Form", "0", nullptr));
+        QTableWidgetItem *___qtablewidgetitem70 = table->item(5, 7);
+        ___qtablewidgetitem70->setText(QCoreApplication::translate("Form", "0", nullptr));
+        QTableWidgetItem *___qtablewidgetitem71 = table->item(5, 8);
+        ___qtablewidgetitem71->setText(QCoreApplication::translate("Form", "0", nullptr));
+        QTableWidgetItem *___qtablewidgetitem72 = table->item(6, 0);
+        ___qtablewidgetitem72->setText(QCoreApplication::translate("Form", "0", nullptr));
+        QTableWidgetItem *___qtablewidgetitem73 = table->item(6, 1);
+        ___qtablewidgetitem73->setText(QCoreApplication::translate("Form", "0", nullptr));
+        QTableWidgetItem *___qtablewidgetitem74 = table->item(6, 2);
+        ___qtablewidgetitem74->setText(QCoreApplication::translate("Form", "0", nullptr));
+        QTableWidgetItem *___qtablewidgetitem75 = table->item(6, 3);
+        ___qtablewidgetitem75->setText(QCoreApplication::translate("Form", "0", nullptr));
+        QTableWidgetItem *___qtablewidgetitem76 = table->item(6, 4);
+        ___qtablewidgetitem76->setText(QCoreApplication::translate("Form", "0", nullptr));
+        QTableWidgetItem *___qtablewidgetitem77 = table->item(6, 5);
+        ___qtablewidgetitem77->setText(QCoreApplication::translate("Form", "0", nullptr));
+        QTableWidgetItem *___qtablewidgetitem78 = table->item(6, 6);
+        ___qtablewidgetitem78->setText(QCoreApplication::translate("Form", "0", nullptr));
+        QTableWidgetItem *___qtablewidgetitem79 = table->item(6, 7);
+        ___qtablewidgetitem79->setText(QCoreApplication::translate("Form", "0", nullptr));
+        QTableWidgetItem *___qtablewidgetitem80 = table->item(6, 8);
+        ___qtablewidgetitem80->setText(QCoreApplication::translate("Form", "0", nullptr));
+        QTableWidgetItem *___qtablewidgetitem81 = table->item(7, 0);
+        ___qtablewidgetitem81->setText(QCoreApplication::translate("Form", "0", nullptr));
+        QTableWidgetItem *___qtablewidgetitem82 = table->item(7, 1);
+        ___qtablewidgetitem82->setText(QCoreApplication::translate("Form", "0", nullptr));
+        QTableWidgetItem *___qtablewidgetitem83 = table->item(7, 2);
+        ___qtablewidgetitem83->setText(QCoreApplication::translate("Form", "0", nullptr));
+        QTableWidgetItem *___qtablewidgetitem84 = table->item(7, 3);
+        ___qtablewidgetitem84->setText(QCoreApplication::translate("Form", "0", nullptr));
+        QTableWidgetItem *___qtablewidgetitem85 = table->item(7, 4);
+        ___qtablewidgetitem85->setText(QCoreApplication::translate("Form", "0", nullptr));
+        QTableWidgetItem *___qtablewidgetitem86 = table->item(7, 5);
+        ___qtablewidgetitem86->setText(QCoreApplication::translate("Form", "0", nullptr));
+        QTableWidgetItem *___qtablewidgetitem87 = table->item(7, 6);
+        ___qtablewidgetitem87->setText(QCoreApplication::translate("Form", "0", nullptr));
+        QTableWidgetItem *___qtablewidgetitem88 = table->item(7, 7);
+        ___qtablewidgetitem88->setText(QCoreApplication::translate("Form", "0", nullptr));
+        QTableWidgetItem *___qtablewidgetitem89 = table->item(7, 8);
+        ___qtablewidgetitem89->setText(QCoreApplication::translate("Form", "0", nullptr));
+        QTableWidgetItem *___qtablewidgetitem90 = table->item(8, 0);
+        ___qtablewidgetitem90->setText(QCoreApplication::translate("Form", "0", nullptr));
+        QTableWidgetItem *___qtablewidgetitem91 = table->item(8, 1);
+        ___qtablewidgetitem91->setText(QCoreApplication::translate("Form", "0", nullptr));
+        QTableWidgetItem *___qtablewidgetitem92 = table->item(8, 2);
+        ___qtablewidgetitem92->setText(QCoreApplication::translate("Form", "0", nullptr));
+        QTableWidgetItem *___qtablewidgetitem93 = table->item(8, 3);
+        ___qtablewidgetitem93->setText(QCoreApplication::translate("Form", "0", nullptr));
+        QTableWidgetItem *___qtablewidgetitem94 = table->item(8, 4);
+        ___qtablewidgetitem94->setText(QCoreApplication::translate("Form", "0", nullptr));
+        QTableWidgetItem *___qtablewidgetitem95 = table->item(8, 5);
+        ___qtablewidgetitem95->setText(QCoreApplication::translate("Form", "0", nullptr));
+        QTableWidgetItem *___qtablewidgetitem96 = table->item(8, 6);
+        ___qtablewidgetitem96->setText(QCoreApplication::translate("Form", "0", nullptr));
+        QTableWidgetItem *___qtablewidgetitem97 = table->item(8, 7);
+        ___qtablewidgetitem97->setText(QCoreApplication::translate("Form", "0", nullptr));
+        QTableWidgetItem *___qtablewidgetitem98 = table->item(8, 8);
+        ___qtablewidgetitem98->setText(QCoreApplication::translate("Form", "0", nullptr));
+        table->setSortingEnabled(__sortingEnabled);
+
+        pb00_2->setText(QCoreApplication::translate("Form", "2", nullptr));
+        pb00_3->setText(QCoreApplication::translate("Form", "3", nullptr));
+        pb00_4->setText(QCoreApplication::translate("Form", "4", nullptr));
+        pb00_5->setText(QCoreApplication::translate("Form", "5", nullptr));
+        pb00_6->setText(QCoreApplication::translate("Form", "6", nullptr));
+        pb00_7->setText(QCoreApplication::translate("Form", "7", nullptr));
+        pb00_8->setText(QCoreApplication::translate("Form", "8", nullptr));
+        pb00_9->setText(QCoreApplication::translate("Form", "9", nullptr));
+        pb00_1->setText(QCoreApplication::translate("Form", "1", nullptr));
+        label->setText(QCoreApplication::translate("Form", "TextLabel", nullptr));
+        pushButton->setText(QCoreApplication::translate("Form", "reset", nullptr));
+        menuMenu->setTitle(QCoreApplication::translate("Form", "menu", nullptr));
+    } // retranslateUi
+
+};
+
+namespace Ui {
+    class Form: public Ui_Form {};
+} // namespace Ui
+
+QT_END_NAMESPACE
+
+#endif // UI_MAINWINDOW_H

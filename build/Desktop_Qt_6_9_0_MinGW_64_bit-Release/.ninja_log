@@ -1,0 +1,13 @@
+# ninja log v6
+276	452	7679744973051884	sudoku1_autogen/timestamp	73e72441d952684e
+15	229	7679746268521585	D:/myprogects/sudoku1/build/Desktop_Qt_6_9_0_MinGW_64_bit-Release/CMakeFiles/cmake.verify_globs	25d4ca9c9b8e7fb6
+276	452	7679744973051884	sudoku1_autogen/mocs_compilation.cpp	73e72441d952684e
+276	452	7679744973051884	D:/myprogects/sudoku1/build/Desktop_Qt_6_9_0_MinGW_64_bit-Release/sudoku1_autogen/timestamp	73e72441d952684e
+1159	4686	7679744168651737	CMakeFiles/sudoku1.dir/main.cpp.obj	9ad728e357557e3d
+276	452	7679744973051884	D:/myprogects/sudoku1/build/Desktop_Qt_6_9_0_MinGW_64_bit-Release/sudoku1_autogen/mocs_compilation.cpp	73e72441d952684e
+1557	1769	7679696260734587	CMakeFiles/sudoku1.dir/rdarray.cc.obj	c0464912e862eaba
+1548	2131	7679696260569325	CMakeFiles/sudoku1.dir/matrix.cc.obj	564649562c6db722
+1154	4703	7679744168651737	CMakeFiles/sudoku1.dir/sudoku1_autogen/mocs_compilation.cpp.obj	b4cd17ad73301bf
+255	1226	7679750505757695	build.ninja	9694ae5d1a5177ad
+452	4576	7679744974806959	CMakeFiles/sudoku1.dir/SudokuGame.cpp.obj	62a2da517aea32fa
+4576	4829	7679745016057976	sudoku1.exe	11417abf6d5df275

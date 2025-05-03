@@ -1,0 +1,22 @@
+# ninja log v6
+1366	1567	7679695896701093	CMakeFiles/sudoku1.dir/rdarray.cc.obj	2957efdedef10062
+1359	1746	7679695896701093	CMakeFiles/sudoku1.dir/matrix.cc.obj	a098e46180b5694c
+247	1104	7679749768660188	build.ninja	133918779841fe96
+24	242	7679747540273978	D:/myprogects/sudoku1/build/Desktop_Qt_6_9_0_MinGW_64_bit-RelWithDebInfo/CMakeFiles/cmake.verify_globs	8f8d0a7d1024aeb8
+396	1159	7679747482037916	sudoku1_autogen/timestamp	5988f0bfc1d46000
+396	1159	7679747482037916	sudoku1_autogen/mocs_compilation.cpp	5988f0bfc1d46000
+396	1159	7679747482037916	D:/myprogects/sudoku1/build/Desktop_Qt_6_9_0_MinGW_64_bit-RelWithDebInfo/sudoku1_autogen/timestamp	5988f0bfc1d46000
+396	1159	7679747482037916	D:/myprogects/sudoku1/build/Desktop_Qt_6_9_0_MinGW_64_bit-RelWithDebInfo/sudoku1_autogen/mocs_compilation.cpp	5988f0bfc1d46000
+1164	4536	7679747482948010	CMakeFiles/sudoku1.dir/main.cpp.obj	3747f25ec6cfa5a5
+1159	4472	7679747482908066	CMakeFiles/sudoku1.dir/sudoku1_autogen/mocs_compilation.cpp.obj	ab2849c5d60c88dc
+1168	5515	7679747482997943	CMakeFiles/sudoku1.dir/SudokuGame.cpp.obj	13cd797fc6eb2815
+5515	5711	7679747526437994	sudoku1.exe	799d6b12c50435cd
+21	223	7679750138389165	D:/myprogects/sudoku1/build/Desktop_Qt_6_9_0_MinGW_64_bit-RelWithDebInfo/CMakeFiles/cmake.verify_globs	8f8d0a7d1024aeb8
+229	369	7679750140423208	sudoku1_autogen/timestamp	5988f0bfc1d46000
+229	369	7679750140423208	sudoku1_autogen/mocs_compilation.cpp	5988f0bfc1d46000
+229	369	7679750140423208	D:/myprogects/sudoku1/build/Desktop_Qt_6_9_0_MinGW_64_bit-RelWithDebInfo/sudoku1_autogen/timestamp	5988f0bfc1d46000
+229	369	7679750140423208	D:/myprogects/sudoku1/build/Desktop_Qt_6_9_0_MinGW_64_bit-RelWithDebInfo/sudoku1_autogen/mocs_compilation.cpp	5988f0bfc1d46000
+21	218	7679750142787564	D:/myprogects/sudoku1/build/Desktop_Qt_6_9_0_MinGW_64_bit-RelWithDebInfo/CMakeFiles/cmake.verify_globs	8f8d0a7d1024aeb8
+14	218	7679750367375004	D:/myprogects/sudoku1/build/Desktop_Qt_6_9_0_MinGW_64_bit-RelWithDebInfo/CMakeFiles/cmake.verify_globs	8f8d0a7d1024aeb8
+12	203	7679750403559802	D:/myprogects/sudoku1/build/Desktop_Qt_6_9_0_MinGW_64_bit-RelWithDebInfo/CMakeFiles/cmake.verify_globs	8f8d0a7d1024aeb8
+14	223	7679750406186369	D:/myprogects/sudoku1/build/Desktop_Qt_6_9_0_MinGW_64_bit-RelWithDebInfo/CMakeFiles/cmake.verify_globs	8f8d0a7d1024aeb8

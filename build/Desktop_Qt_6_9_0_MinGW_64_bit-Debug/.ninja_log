@@ -1,0 +1,13 @@
+# ninja log v6
+795	6301	7679685306251366	CMakeFiles/sudoku1.dir/main.cpp.obj	8e64bdd426b77a91
+24	126	7679685298539848	D:/myprogects/sudoku1/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/CMakeFiles/cmake.verify_globs	81e34271deeb2c06
+133	782	7679685305446796	sudoku1_autogen/timestamp	a0dcd475e9bd67e3
+133	782	7679685305446796	sudoku1_autogen/mocs_compilation.cpp	a0dcd475e9bd67e3
+133	782	7679685305446796	D:/myprogects/sudoku1/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/sudoku1_autogen/timestamp	a0dcd475e9bd67e3
+133	782	7679685305446796	D:/myprogects/sudoku1/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/sudoku1_autogen/mocs_compilation.cpp	a0dcd475e9bd67e3
+1666	5431	7679657997078907	CMakeFiles/sudoku1.dir/mainwindow.cpp.obj	796160ff4a006224
+783	6665	7679685306131443	CMakeFiles/sudoku1.dir/sudoku1_autogen/mocs_compilation.cpp.obj	5d9cc4b99a09deb
+5469	6041	7679658035052254	sudoku1.exe	27917b77053e9104
+206	1168	7679694232063548	build.ninja	f8d32214749fa605
+791	883	7679685306211374	CMakeFiles/sudoku1.dir/rdarray.cc.obj	1e0c9b777543cc6b
+787	908	7679685306171456	CMakeFiles/sudoku1.dir/matrix.cc.obj	ff6901dc22a069d3

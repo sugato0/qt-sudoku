@@ -1,0 +1,9 @@
+D:/myprogects/sudoku1/build/Desktop_Qt_6_9_0_MinGW_64_bit-Profile/CMakeFiles/sudoku1.dir
+D:/myprogects/sudoku1/build/Desktop_Qt_6_9_0_MinGW_64_bit-Profile/CMakeFiles/edit_cache.dir
+D:/myprogects/sudoku1/build/Desktop_Qt_6_9_0_MinGW_64_bit-Profile/CMakeFiles/rebuild_cache.dir
+D:/myprogects/sudoku1/build/Desktop_Qt_6_9_0_MinGW_64_bit-Profile/CMakeFiles/list_install_components.dir
+D:/myprogects/sudoku1/build/Desktop_Qt_6_9_0_MinGW_64_bit-Profile/CMakeFiles/install.dir
+D:/myprogects/sudoku1/build/Desktop_Qt_6_9_0_MinGW_64_bit-Profile/CMakeFiles/install/local.dir
+D:/myprogects/sudoku1/build/Desktop_Qt_6_9_0_MinGW_64_bit-Profile/CMakeFiles/install/strip.dir
+D:/myprogects/sudoku1/build/Desktop_Qt_6_9_0_MinGW_64_bit-Profile/CMakeFiles/sudoku1_autogen_timestamp_deps.dir
+D:/myprogects/sudoku1/build/Desktop_Qt_6_9_0_MinGW_64_bit-Profile/CMakeFiles/sudoku1_autogen.dir
